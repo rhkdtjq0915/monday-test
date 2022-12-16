@@ -75,13 +75,10 @@ p.onmouseover = function () { this.style.backgroundColor="orchid"; };
 -----------------------------------------------------
 
 # SPA MPA SCR CSR에 대해 기술하시오.
-SPA   
 SPA(Single Page Applicaton)는 말 그래도 하나의 파일로 전체 사이트를 구현한다는 뜻이다.   
    
-MPA   
 MPA(Multi Page Application) 다중 페이지 응용프로그램이라고 불리기도 하며, 전통적인 웹 애플리케이션 개발 방식이다.   
    
-SCR   
 SSR은 서버에서 첫 페이지의 렌더링을 클라이언트 측이 아닌 서버 측에서 처리해주는 방식.   
    
 CSR
