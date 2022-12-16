@@ -72,9 +72,17 @@ function over() {
 <p id="p" onmouseover="this.style.backgroundColor='orchid'"
 	마우스 올리면 orchid 색으로 변경
 </p>
+```   
+   
+2.DOM 객체의 이벤트 리스너 프로퍼티 작성
+```
+function over() {
+	p.style.backgroundColor="orchid";
+}
+p.onmouseover = over;
 ```
    
-2.DOM 객체의 addEventListener() 메소드 이용
+3.DOM 객체의 addEventListener() 메소드 이용
 ```
 p.addEventListener("mouseover", over);
 ```
