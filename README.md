@@ -87,7 +87,7 @@ p.onmouseover = over;
 p.addEventListener("mouseover", over);
 ```
    
-3.익명 함수 이용
+4.익명 함수 이용
 ```
 p.onmouseover = function () { this.style.backgroundColor="orchid"; }; 
 ```
