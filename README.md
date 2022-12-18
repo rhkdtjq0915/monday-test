@@ -41,8 +41,6 @@ HTML구성 요소들이 표시되는 방법을 개선하는 데 주로 사용되
 ># 자바스크립트에서 객체를 만드는 3가지 방법에 예와 함께 기술하시오.   
 1.newObject() 생성자 사용
 ```
- * @type {Object}
- */
 let Human = new Object();
 Human.name = 'alba';
 Human.sex = 'female';
